@@ -14,7 +14,7 @@ public class Main {
         hashMapFirst.start();
         hashMapSecond.start();
         hashMapThird.start();
-        FileOut fileOut = new FileOut(result);
-        fileOut.insertMapToFile(new FileWriter("d:\\SomeTextAll.txt"));
+        FileOut fileOut = new FileOut(result, "d:\\SomeTextAll.txt");
+        fileOut.insertMapToFile();
     }
 }

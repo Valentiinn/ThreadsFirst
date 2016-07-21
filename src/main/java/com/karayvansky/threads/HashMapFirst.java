@@ -48,5 +48,6 @@ public class HashMapFirst extends Thread {
                 e.printStackTrace();
             }
         }
+        System.out.println(result);
     }
 }

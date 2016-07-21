@@ -49,5 +49,6 @@ public class HashMapThird extends Thread {
                 e.printStackTrace();
             }
         }
+        System.out.println(result);
     }
 }

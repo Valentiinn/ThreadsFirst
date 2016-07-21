@@ -49,6 +49,7 @@ public class HashMapSecond extends Thread {
                 e.printStackTrace();
             }
         }
+        System.out.println(result);
     }
 }
 
